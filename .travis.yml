@@ -2,13 +2,10 @@ language: ruby
 os: linux
 bundler_args: --without development --path=~/.bundle
 rvm:
-- 2.6
 - jruby
 before_install:
 - 'echo ''gem: --no-ri --no-rdoc'' > ~/.gemrc'
 - gem install asciidoctor
 install:
 - make render
-script:
-- bundle exec rspec --force-color --format progress --fail-fast=5
 env: DISPLAY=:99
