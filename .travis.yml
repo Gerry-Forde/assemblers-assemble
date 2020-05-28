@@ -8,4 +8,8 @@ before_install:
 - gem install asciidoctor
 install:
 - make render
+before_script:
+- ruby bin/setup
+script:
+- bundle exec rspec --force-color --format progress --fail-fast=5
 env: DISPLAY=:99
