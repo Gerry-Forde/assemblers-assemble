@@ -1,0 +1,28 @@
+// assembly attempt 
+
+// URLs
+:openshift-console-url: {openshift-host}/dashboards
+:fuse-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_fuse/{fuse-version}/
+:amq-documentation-url: https://access.redhat.com/documentation/en-us/red_hat_amq/{amq-version}/
+
+//attributes
+:title: 1 - How to Wash a Cat (assembly version)
+:standard-fail-text: Verify that you followed all the steps. If you continue to have issues, contact your administrator.
+:bl: pass:[ +]
+
+[id='1-how-to-assemble-a-solution-pattern']
+= {title}
+
+include::fragment.adoc[]
+
+[type=walkthroughResource,serviceName=openshift]
+.Red Hat OpenShift
+****
+* link:{openshift-console-url}[Console, window="_blank"]
+* link:https://docs.openshift.com/dedicated/4/welcome/index.html/[OpenShift Documentation, window="_blank"]
+* link:https://blog.openshift.com/[OpenShift Blog, window="_blank"]
+****
+
+:sectnums:
+
+include::washing-cats.adoc[leveloffset=+1]

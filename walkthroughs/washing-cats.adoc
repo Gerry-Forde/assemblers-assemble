@@ -1,0 +1,36 @@
+[time=5]
+[id='how-to-wash-a-cat']
+= How to Wash the Cat (According to the Dog)
+:task-context: washing-a-cat
+
+****
+*Washing a Cat*
+****
+
+Follow these steps to wash a cat:
+
+. Put both lids of the toilet up.
+. Add 1/8 cup of pet shampoo to the bowl.
+. Pick up the cat, soothing him or her while carrying them to the bathroom.
+. In one smooth movement, put the cat in the toilet and close the lid.
+. Stand on the lid as necessary.
+. At this point, the cat will self-agitate and make ample suds. Ignore any noises of discomfort, the cat is actually enjoying this.
+. Flush the toilet three or four times. This provides a `power wash` and `rinse`.
+. Have someone open the front door of your home. Ensure nobody is between the bathroom and the frontt door.
+. Stand back as far as possible and quickly lift the lid.
+. The cat will rocket out of the bathroom, streak through the house, and run outside where they will dry themselves off.
+. Both the toilet and cat will be sparkling clean.
+
+{bl}
+Thank you for following these steps for my enjoyment.
+
+Yours sincerely, 
+The Dog.
+
+[type=verification]
+Look at the cat and toilet to verify that both are clean.
+
+[type=verificationFail]
+{standard-fail-text}
+
+// end::task-washing-a-cat[]
