@@ -8,6 +8,7 @@ This technique allows you author modules for Solution Patterns, then assemble th
 
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/) installed locally (i.e. `sudo apt-get install ruby-full`)
 * [Asciidoctor Ruby](https://asciidoctor-docs.netlify.app/) installed locally (i.e. `sudo gem install asciidoctor`)
+* [Ruby Rake](https://github.com/ruby/rake) installed locally (i.e. `sudo gem install rake`)
 
 ## Procedure
 
@@ -19,7 +20,7 @@ This technique allows you author modules for Solution Patterns, then assemble th
 2.  Run the following command in the root of your repo to render the appropriate `walkthrough.adoc` files:
 
 ```
-make render
+rake
 ```
 
 This command coalesces the `assembly-<walkthrough-name>.adoc` file with the includes and overwrites the `<walkthrough-name>/walkthrough.adoc` file.

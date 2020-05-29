@@ -1,1 +1,2 @@
-walkthroughs/1-assemble-me/walkthrough.adoc
+# ignore all walkthrough.adoc files, which are created at build time
+walkthrough.adoc
