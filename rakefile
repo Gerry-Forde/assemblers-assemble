@@ -1,9 +1,11 @@
 task default: %w[render]
 
 file :clean do
+  puts "Cleaning old walkthrough.adoc files..."
   rm_r FileList["walkthroughs/*/walkthrough.adoc"]
 end
 
 task render: "clean" do
+  puts "Coalescing updated walkthrough.adoc files..."
   ruby "./asciidoc-coalescer.rb walkthroughs/assembly-1-assemble-me.adoc > walkthroughs/1-assemble-me/walkthrough.adoc"
 end
