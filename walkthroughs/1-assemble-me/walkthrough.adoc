@@ -1,0 +1,67 @@
+// Camel-K Basic assembly attempt
+
+//attributes
+:solx:
+
+[id="deploying-camel-k-tutorials"]
+= Camel K quick start developer tutorials
+//If the assembly covers a task, start the title with a verb in the gerund form, such as Creating or Configuring.
+
+{CamelKName} provides quick start developer tutorials based on integration use cases available from link:https://github.com/openshift-integration[]. This chapter provides details on how to set up and deploy the following tutorials:
+
+* xref:deploying-basic-integration[]
+* xref:deploying-camel-k-knative-integration[]
+//* xref:deploying-camel-k-virtual-db-integration[]
+* xref:deploying-camel-k-event-stream-integration[]
+* xref:deploying-camel-k-api-integration[]
+
+
+//INCLUDES
+
+
+:leveloffset: +1
+
+// Metadata created by nebel
+//
+// ParentAssemblies: assemblies/camel-k/as_camel-k-developer-tutorials.adoc
+
+[id="deploying-basic-integration"]
+= Deploying a basic Camel K Java integration
+// Start the title of a procedure module with a verb, such as Creating or Create. See also _Wording of headings_ in _The IBM Style Guide_.
+
+This tutorial demonstrates how to run a simple Java integration in the cloud on OpenShift, apply configuration and routing to an integration, and run an integration as a Kubernetes CronJob.
+
+.Prerequisites
+
+* See the tutorial readme in GitHub: link:https://github.com/openshift-integration/camel-k-example-basic[].
+* You must have cluster administrator access to an OpenShift {CamelKOCPVersion} cluster to install Camel K. See xref:installing-camel-k-operatorhub[].
+* You must have the `kamel` command installed. See xref:installing-camel-k-client-tool[].
+* Visual Studio (VS) Code is optional but recommended for the best developer experience. See xref:setting-up-environment[].
+
+.Procedure
+
+. Clone the tutorial Git repository:
++
+[source,bash]
+----
+$ git clone git@github.com:openshift-integration/camel-k-example-basic.git
+----
+. In the VS Code navigation tree, right-click the `readme.didact.md` file and select *Didact: Start Didact Tutorial from File*. For example:
++
+image::images/camel-k/camel-k-quickstart-didact.png[Starting the Camel K Quickstart tutorial]
++
+This opens a new Didact tab in VS Code to display the tutorial instructions.
+
+. Follow the tutorial instructions and click the provided links to run the commands automatically.
++
+Alternatively, if you do not have VS Code installed with the Didact extension, you can manually enter the commands from link:https://github.com/openshift-integration/camel-k-example-basic[].
+
+.Additional resources
+
+* xref:writing-camel-k-integrations-in-java[]
+
+:leveloffset!:
+
+//.Additional resources (or Next steps)
+
+//* ...

@@ -1,2 +1,2 @@
 # ignore all walkthrough.adoc files, which are created at build time
-walkthrough.adoc
+#walkthrough.adoc
