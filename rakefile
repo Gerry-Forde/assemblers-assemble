@@ -6,6 +6,6 @@ file :clean do
 end
 
 task render: "clean" do
-  puts "Coalescing updated walkthrough.adoc files..."
-  ruby "./asciidoc-coalescer.rb walkthroughs/assembly-1-assemble-me.adoc > walkthroughs/1-assemble-me/walkthrough.adoc"
+   puts "Coalescing updated walkthrough.adoc files..."
+   ruby "./asciidoc-coalescer.rb walkthroughs/as_deploying-camel-k-basic.adoc > walkthroughs/1-assemble-me/walkthrough.adoc"
 end

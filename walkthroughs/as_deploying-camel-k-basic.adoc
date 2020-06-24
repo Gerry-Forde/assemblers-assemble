@@ -1,0 +1,35 @@
+// Camel-K Basic assembly attempt 
+
+//attributes
+:solx:
+
+[id="deploying-camel-k-tutorials"]
+= Camel K quick start developer tutorials
+//If the assembly covers a task, start the title with a verb in the gerund form, such as Creating or Configuring.
+
+{CamelKName} provides quick start developer tutorials based on integration use cases available from link:https://github.com/openshift-integration[]. This chapter provides details on how to set up and deploy the following tutorials:
+
+* xref:deploying-basic-integration[]
+* xref:deploying-camel-k-knative-integration[]
+//* xref:deploying-camel-k-virtual-db-integration[]
+* xref:deploying-camel-k-event-stream-integration[]
+* xref:deploying-camel-k-api-integration[]
+
+
+//INCLUDES
+
+ifndef::solx[]
+include::../../modules/camel-k/p_deploying-basic-integration.adoc[leveloffset=+1]
+include::../../modules/camel-k/p_deploying-camel-k-knative-integration.adoc[leveloffset=+1]
+//include::../../modules/camel-k/p_deploying-camel-k-virtual-db-integration.adoc[leveloffset=+1]
+include::../../modules/camel-k/p_deploying-camel-k-event-stream-integration.adoc[leveloffset=+1]
+include::../../modules/camel-k/p_deploying-camel-k-api-integration.adoc[leveloffset=+1]
+endif::[]
+
+ifdef::solx[]
+include::p_deploying-basic-integration.adoc[leveloffset=+1]
+endif::[]
+
+//.Additional resources (or Next steps)
+
+//* ...
